@@ -18,6 +18,7 @@ function displayWeather(data) {
     const weatherInfo = document.getElementById('weather-info');
     if (data.current) {
         weatherInfo.innerHTML = `
+            
             <h3>Weather in ${data.location.name}</h3>
             <div class="weather-item">
                 <i class="fas fa-thermometer-half"></i>
